@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 JavaScript Event Playground</h1>
+
+  <!-- Event Handling -->
+  <section>
+    <h2>1. Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <div id="hoverBox">Hover over me!</div>
+    <p>Press any key to see the magic in the console.</p>
+    <button id="secretBtn">Shh... Secret</button>
+  </section>
+
+  <!-- Interactive Elements -->
+  <section>
+    <h2>2. Interactive Elements</h2>
+    <button id="changeMe">Change My Text</button>
+
+    <div>
+      <h3>Image Gallery</h3>
+      <img id="galleryImg" src="img1.jpg" alt="Gallery Image" width="300">
+      <br>
+      <button id="nextImg">Next</button>
+    </div>
+
+    <div>
+      <h3>Tab Switcher</h3>
+      <div class="tab" data-target="content1">Tab 1</div>
+      <div class="tab" data-target="content2">Tab 2</div>
+      <div id="content1" class="content">📘 Content 1: Welcome to Tab 1</div>
+      <div id="content2" class="content">📗 Content 2: Hello from Tab 2</div>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>3. Form Validation</h2>
+    <form id="signupForm">
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Submit</button>
+      <div id="formFeedback"></div>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
